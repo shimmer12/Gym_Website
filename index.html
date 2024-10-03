@@ -363,18 +363,22 @@
                 <img src="assets/gallery-9.jpg" alt="gallery" />
               </div>
             </div>
-            <div class="footer__col">
-              <h4>NEWSLETTER</h4>
-              <p>
-                Don't miss out on the latest news and offers - sign up today and
-                join our thriving fitness community!
-              </p>
-              <form onsubmit="sendEmail(); reset(); return false;" id="form-bg">
-                <input type="text" id="name" placeholder="Enter Name" />
-                <input type="text" id="email" placeholder="Enter Email" />
-                <input type="text" id="phone" placeholder="Enter Phone no." />
-                <button type="submit" class="btn btn__primary">SEND</button>
-              </form>
+          
+              <section class="newsletter">
+  <div class="newsletter__container">
+    <h2 class="newsletter__header">Subscribe to our Newsletter</h2>
+    <p class="newsletter__description">Stay updated with our latest news and offers!</p>
+    <form class="newsletter__form">
+      <input type="email" placeholder="Enter your email address" class="newsletter__input" required />
+      <button type="submit" class="newsletter__btn">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+              
               <div class="footer__socials">
                 <a href="#"><i class="ri-facebook-fill"></i></a>
                 <a href="#"><i class="ri-twitter-fill"></i></a>
@@ -382,6 +386,9 @@
               </div>
             </div>
         </div>
+
+
+          
         <div class="swiper-pagination">
             <span class="swiper-pagination-bullet"></span>
             <span class="swiper-pagination-bullet"></span>
